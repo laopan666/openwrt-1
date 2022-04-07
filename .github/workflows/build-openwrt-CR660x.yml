@@ -30,8 +30,8 @@ on:
       - '.github/workflows/build-openwrt-cr660x.yml'
       
 env:
-  REPO_URL: laopan666/openwrt:master
-  #REPO_BRANCH: master
+  REPO_URL: laopan666/lede
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: cr660x.config
   DIY_P1_SH: diy-part1.sh
